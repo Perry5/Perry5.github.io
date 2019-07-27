@@ -1,4 +1,3 @@
-/********** common setting **********/
 h2 {
     font-size: 2.8rem !important;
     font-weight: 700;
@@ -63,6 +62,114 @@ button {
     color: #ffffff;
     background: #121a2e;
 }
+/* For Candidates BEGIN */
+.screening-options-img {
+    max-width: 150px;
+}
+/* For Candidates END */
+/* Employer Page Styles BEGIN */
+.for-companies-link {
+    text-decoration: underline;
+}
+
+.employer-header {
+    letter-spacing: -.6px;
+    line-height: 1.05;
+    color: #000000;
+}
+
+.how-we-do-it-section {
+    padding-top: 35px;    
+}
+
+.how-we-do-it-description {
+    padding-top: 20px;
+
+}
+
+.how-we-do-it-description-img {
+    width: 118px;
+    height: 118px;
+}
+
+.value-prop-desc {
+    font-weight: 600;
+}
+
+.value-prop-img {
+    max-width: 200px;
+    width: 100%;
+}
+
+/* Employer Page Styles END */
+
+
+/* For Email Input BEGIN */
+.s1-txt1 {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.2;
+}
+
+.placeholder0::-webkit-input-placeholder {
+    color: #999999;
+}
+
+.placeholder0:-moz-placeholder {
+    color: #999999;
+}
+
+.placeholder0::-moz-placeholder {
+    color: #999999;
+}
+
+.placeholder0:-ms-input-placeholder {
+    color: #999999;
+}
+
+.wrap-input100 {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    z-index: 1;
+}
+
+.input100 {
+    width: 25%;
+    background: #f5f5f5;
+    height: 50px;
+    border-radius: 25px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.focus-input100 {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    border-radius: 35px;
+    box-shadow: 0px 0px 0px 0px;
+    color: rgba(0, 178, 111, 0.5);
+}
+
+.input100:focus+.focus-input100 {
+    -webkit-animation: anim-shadow 0.5s ease-in-out forwards;
+    animation: anim-shadow 0.5s ease-in-out forwards;
+}
+
+.s1-txt3 {
+    font-size: 13px;
+    color: #999;
+    line-height: 1.5;
+}
+
+/* For Email Input End */
+
 
 #banner {
     background-size: cover;
@@ -78,10 +185,10 @@ button {
 }
 
 /********** feature (skew background) **********/
-.feature img {
+/* .feature img {
     width: 100%;
     max-width: 480px;
-}
+} */
 
 #feature-first {
     background: linear-gradient(168deg, #ffffff 55%, #00FFAD 0);
