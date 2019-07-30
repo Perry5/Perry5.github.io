@@ -13,6 +13,10 @@ button {
     cursor: pointer;
 }
 
+textarea:focus, input:focus {
+    outline: none;
+}
+
 .jumbotron {
     margin-bottom: 0 !important;
 }
@@ -34,13 +38,24 @@ button {
 }
 
 .cta-green {
-    background: #00FFAD;
-    color: #192440;
+    /* Previous setting */
+    /* background: #00FFAD; */
+    /* color: #192440; */
+
+    /* New setting */
+    /* background: #0072ff; */    
+    background: #0072ff;
+    color: #ffffff;
+
 }
 
 .cta-green:hover {
     color: #ffffff;
-    background: #00e69c;
+    /* Old background */
+    /* background: #00e69c; */
+
+    /* New background */
+    background: #00a2ff;
 }
 
 .cta-blue {
@@ -97,7 +112,7 @@ button {
 }
 
 .value-prop-img {
-    max-width: 200px;
+    max-width: 250px;
     width: 100%;
 }
 
@@ -191,11 +206,13 @@ button {
 } */
 
 #feature-first {
-    background: linear-gradient(168deg, #ffffff 55%, #00FFAD 0);
+    /* background: linear-gradient(168deg, #ffffff 55%, #00FFAD 0); */
+    /* background: linear-gradient(168deg, #ffffff 55%, #0072ff 0); */
 }
 
 #feature-last {
-    background: #00FFAD;
+    /* background: #00FFAD; */
+    background: #0072ff;
 }
 
 /********** price table **********/
@@ -223,13 +240,22 @@ button {
 }
 
 #contact form {
-    color: #00FFAD;
+    /* Old setting */
+    /* color: #00FFAD; */
+
+    /* New Setting */
+    color: #ffffff;
 }
 
 #contact form input,
 #contact form textarea {
     background: transparent;
-    border: 1px solid #00FFAD;
+    /* Old Setting */
+    /* border: 1px solid #00FFAD; */
+
+    /* New Setting */
+    border: 1px solid #00a2ff;
+
     color: #ffffff;
 }
 
@@ -254,7 +280,8 @@ button {
 }
 
 #copyright #social-media a:hover {
-    background: #00FFAD;
+    /* background: #00FFAD; */
+    background: #00a2ff;
 }
 
 #copyright #social-media a:hover i {
