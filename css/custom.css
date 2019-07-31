@@ -81,6 +81,16 @@ textarea:focus, input:focus {
 .screening-options-img {
     max-width: 150px;
 }
+
+.steps-img {
+    max-width: 50px;
+    padding-bottom: 10px;
+}
+
+.bottom-input {
+    width: 100% !important;
+}
+
 /* For Candidates END */
 /* Employer Page Styles BEGIN */
 .for-companies-link {
@@ -218,7 +228,7 @@ textarea:focus, input:focus {
 /********** price table **********/
 #price-table {
     padding-top: 4rem !important;
-    padding-bottom: 4rem !important;
+    /* padding-bottom: 4rem !important; */
 }
 
 #price-table__premium {
