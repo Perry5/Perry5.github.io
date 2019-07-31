@@ -84,6 +84,10 @@ textarea:focus, input:focus {
     background: #121a2e;
 }
 /* For Candidates BEGIN */
+.how-it-works-color {
+    color: #0072ff;
+}
+
 .screening-options-img {
     max-width: 150px;
 }
@@ -212,7 +216,7 @@ textarea:focus, input:focus {
 }
 
 #banner header img {
-    max-width: 80px;
+    /* max-width: 80px; */
 }
 
 /********** feature (skew background) **********/
